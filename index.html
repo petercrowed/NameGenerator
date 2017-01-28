@@ -1,0 +1,23 @@
+<html>
+
+<script src="node_modules/angular/angular.js"></script>
+<script src="controller.js"></script>
+<script src="numberGeneratorService.js"></script>
+<script src="generateFirstName.js"></script>
+<script src="generateSecondName.js"></script>
+<script src="generateWarriorName.js"></script>
+<script src="capitalizeLetterService.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<div ng-app="myApp" ng-controller="WarriorNameGenerator">
+
+
+        <p> Generated Warrior Name: {{ name }}
+            <p>
+              <button ng-click="myFunc()" >
+              Generate New Warrior Name
+              </button>
+
+</div>
+
+
+</html>

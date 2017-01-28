@@ -1,0 +1,17 @@
+div {
+    height: 200px;
+    line-height: 200px;
+    background: #000;
+    text-align: center;
+    border: 2px dashed #f69c55;
+    color: #FFF;
+    font-size: 40px;
+    font-style: oblique;
+    text-align: center;
+    padding: 0 20px;
+    margin: 20px;
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
+}
